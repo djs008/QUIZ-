@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed; /* Replace with your image path */
+    background-size: cover; /* Ensure the background covers the entire screen */
+    margin: 0;
+    padding: 0;
+    color: gold; /* Change all text color to gold */
+}
+
+.quiz-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(26, 26, 26, 0.8); /* Darker background with transparency for the quiz container */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Slight shadow for better contrast */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: gold; /* Gold text for heading */
+}
+
+.username, .question {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: gold; /* Gold text for labels */
+}
+
+input[type="text"] {
+    width: 80%; /* Make the input fields smaller in width */
+    padding: 5px; /* Reduce padding for smaller input fields */
+    border: 1px solid #444; /* Darker border */
+    background-color: #000; /* Black background for input fields */
+    color: gold; /* Gold text in input fields */
+    border-radius: 4px;
+    margin: 0 auto; /* Center align the input fields */
+    display: block; /* Center the input fields within the container */
+}
+
+input[type="text"]::placeholder {
+    color: #888; /* Light gray placeholder text */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #444; /* Dark gray button */
+    color: gold; /* Gold text for button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555; /* Slightly lighter gray on hover */
+}
+
+.results {
+    margin-top: 20px;
+    text-align: center;
+    color: gold; /* Gold text for results */
+}
